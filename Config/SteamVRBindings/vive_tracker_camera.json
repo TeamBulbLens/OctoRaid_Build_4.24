@@ -8,13 +8,35 @@
 		{
 			"sources": [
 				{
+					"mode": "trigger",
+					"path": "/user/hand/right/input/trigger",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/TriggerRight"
+						}
+					}
+				},
+				{
+					"mode": "trigger",
+					"path": "/user/hand/left/input/trigger",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/TriggerLeft"
+						}
+					}
+				},
+				{
 					"mode": "button",
 					"path": "/user/hand/right/input/grip",
 					"inputs":
 					{
 						"click":
 						{
-							"output": "/actions/main/in/TriggerRight"
+							"output": "/actions/main/in/GripRight"
 						}
 					}
 				},
@@ -25,7 +47,7 @@
 					{
 						"click":
 						{
-							"output": "/actions/main/in/TriggerLeft"
+							"output": "/actions/main/in/GripLeft"
 						}
 					}
 				}

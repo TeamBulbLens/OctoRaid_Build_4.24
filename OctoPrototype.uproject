@@ -26,6 +26,14 @@
 		{
 			"Name": "Takes",
 			"Enabled": true
+		},
+		{
+			"Name": "Paper2D",
+			"Enabled": false
+		},
+		{
+			"Name": "CustomMeshComponent",
+			"Enabled": false
 		}
 	]
 }
